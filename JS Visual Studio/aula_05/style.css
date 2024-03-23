@@ -1,0 +1,22 @@
+@font-face {
+    font-family: eightBit;
+    src: url(dina10pxbold.ttf);
+}
+
+p {
+    font-family: eightBit;
+    font-size: 28;
+    text-shadow: #000000 1px 1px 1px;
+    color: white;
+    text-align: justify;
+}
+
+div {
+    border-radius: 3px;
+    box-shadow: #000000 4px 5px;
+    background-color: #85644a;
+    margin: auto;
+    width: 400px;
+    margin-top: 50px;
+    padding: 20px;
+}

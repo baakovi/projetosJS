@@ -1,0 +1,59 @@
+@font-face {
+    font-family: DinaBold;
+    src: url(dina10pxbold.ttf);
+}
+
+body {
+    background: url(wallpaperflare.com_wallpaperopacity2.png) no-repeat;
+    background-size: cover;
+    background-position: 50% 0;
+    background-color: #000000;
+}
+
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: block;   
+}
+
+#tela {
+    border: 10px solid #0d0d0d;
+    background-color: #f8f8f8;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    image-rendering: -moz-crisp-edges;
+
+    width: 600px;
+    height: 500px;
+}
+
+/* .canva {
+    padding: 0;
+    margin: auto;
+    display: block;
+    position: absolute;
+} */
+
+h1 {
+    font-family: DinaBold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 500;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1#jogador {
+    text-align: center;
+    color: teal;
+}
+
+h1#player {
+    text-align: center;
+    color: gold;
+}
